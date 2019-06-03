@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -143,6 +143,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CCalendar.h" />
+    <ClInclude Include="CConsole.h" />
+    <ClInclude Include="CDate.h" />
+    <ClInclude Include="CTime.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CCalendar.cpp" />
+    <ClCompile Include="CConsole.cpp" />
+    <ClCompile Include="CDate.cpp" />
+    <ClCompile Include="CTime.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
